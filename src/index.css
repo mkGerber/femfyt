@@ -1,0 +1,71 @@
+:root {
+  --brown: #4a3b33;
+  --blush: #ddb8ae;
+  --cream: #f1ece2;
+  --sage: #c9d2a6;
+  --mist: #dde5e3;
+
+  --text-h: var(--brown);
+  --text: rgba(74, 59, 51, 0.72);
+  --bg: var(--cream);
+  --border: var(--blush);
+  --surface: var(--mist);
+  --accent: var(--brown);
+  --accent-light: var(--sage);
+  --accent-bg: rgba(221, 184, 174, 0.4);
+  --text-on-accent: var(--cream);
+  --shadow:
+    rgba(74, 59, 51, 0.08) 0 10px 15px -3px,
+    rgba(74, 59, 51, 0.04) 0 4px 6px -2px;
+
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+
+  font: 16px/145% var(--sans);
+  letter-spacing: 0.18px;
+  color-scheme: light;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+  margin: 0;
+  text-align: left;
+  min-height: 100svh;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--heading);
+  font-weight: 500;
+  color: var(--text-h);
+}
+
+h2 {
+  font-size: 28px;
+  letter-spacing: -0.5px;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  font-family: var(--sans);
+}
+
+input {
+  font-family: var(--sans);
+}
