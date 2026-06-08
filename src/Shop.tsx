@@ -1,4 +1,4 @@
-import "./shop.css";
+import "./Shop.css";
 
 const products = [
   { name: "Performance Squat Belt", category: "Belts", price: "$69.00" },
