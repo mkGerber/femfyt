@@ -11,6 +11,7 @@ import { GiWeightLiftingUp } from "react-icons/gi";
 
 import { Routes, Route, Link } from "react-router-dom";
 import Shop from "./Shop";
+import Launch from "./Launch";
 
 function Home() {
   return (
@@ -168,6 +169,7 @@ function App() {
           <nav className="nav">
             <Link to="/">New In</Link>
             <Link to="/shop">Shop</Link>
+            <Link to="/launch">Launch</Link>
             <a href="#">Collections</a>
             <a href="#">About</a>
           </nav>
@@ -177,6 +179,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
+        <Route path="/launch" element={<Launch />} />
       </Routes>
 
       <footer className="footer">
