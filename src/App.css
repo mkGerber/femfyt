@@ -163,12 +163,13 @@ body {
 }
 
 .feature-icon {
-  width: 28px;
-  height: 28px;
-  padding: 18px;
+  width: 64px;
+  height: 64px;
+  padding: 16px;
   border-radius: 50%;
   color: #f1ece2;
   flex-shrink: 0;
+  box-sizing: border-box;
 }
 
 .feature h2 {
@@ -686,8 +687,8 @@ body {
   }
 
   .feature-icon {
-    width: 24px;
-    height: 24px;
+    width: 56px;
+    height: 56px;
     padding: 14px;
   }
 
@@ -695,12 +696,6 @@ body {
     font-size: 10px;
     letter-spacing: 0.14em;
     line-height: 1.35;
-  }
-
-  .feature-icon {
-    width: 24px;
-    height: 24px;
-    padding: 15px;
   }
 
   .community-favorites {

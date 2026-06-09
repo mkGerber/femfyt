@@ -247,3 +247,47 @@
     padding: 14px;
   }
 }
+
+.shop-sidebar button.active-category {
+  background: #4a3b33;
+  color: #f1ece2;
+}
+
+.products-header {
+  align-items: center;
+}
+
+.sort-control {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #4a3b33;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.sort-control select {
+  border: 1px solid rgba(74, 59, 51, 0.2);
+  background: #f8f4ec;
+  color: #4a3b33;
+  padding: 12px 14px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+@media (max-width: 760px) {
+  .products-header {
+    align-items: stretch;
+  }
+
+  .sort-control {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .sort-control select {
+    width: 100%;
+  }
+}
